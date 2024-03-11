@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Toggle</title>
+</head>
+<body>
+
+  <img id="myImage" src="https://5.imimg.com/data5/SELLER/Default/2022/12/CI/PX/TC/180410647/ethical-hacking-training-services.jpg" style="width:500px;height:600px alt="Your Image">
+
+  <script>
+    var myImage = document.getElementById("myImage");
+
+    myImage.addEventListener("mouseover", function () {
+      myImage.style.display = "none";
+    });
+
+    myImage.addEventListener("mouseout", function () {
+      myImage.style.display = "block";
+    });
+  </script>
+
+</body>
+</html>
